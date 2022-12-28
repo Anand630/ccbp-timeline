@@ -1,0 +1,52 @@
+.home-container {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 0;
+  text-align: center;
+  background-color: #afd1e9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 935px) {
+  .home-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-container {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+@media (max-width: 575px) {
+  .home-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.my-journey-text {
+  font-family: Roboto;
+  color: #171f46;
+  font-weight: 300;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85px;
+}
+
+.ccbp-heading-text {
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.chrono-container {
+  height: 450px;
+}
